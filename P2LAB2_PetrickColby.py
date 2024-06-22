@@ -27,4 +27,4 @@ drivemiles = int(input())
 
 mpgusage = drivemiles / cars[carselect]
 
-print(f'\n{mpgusage:.2f} gallon(s) of gas are needed to drive the {carselect} {drivemiles:.1f}')
+print(f'\n{mpgusage:.2f} gallon(s) of gas are needed to drive the {carselect} {drivemiles:.1f} miles.')
