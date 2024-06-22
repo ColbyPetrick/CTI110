@@ -18,7 +18,7 @@ print(keys)
 print('\nEnter a vehicle to see it\'s mpg:', end = ' ')
 carselect = input()
 
-print('The', carselect, 'gets', cars[carselect], 'mpg.')
+print('\nThe', carselect, 'gets', cars[carselect], 'mpg.')
 # Spent a bit of time over-thinking this segment but got it working
 
 # Coded Segment 3
