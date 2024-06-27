@@ -12,13 +12,14 @@ payrate = float(input('Enter employee\'s pay rate: '))
 
 # Coded Segment Two
 # Most of the math is in this segment
-overtimepay = (payrate * 1.5) * (hourwrk - 40)
 
 # If Statement here ensures the Reg Pay will always be calculating a flat 40 or lower - to ensure it is not calculating the OT
 if hourwrk <= 40:
     regpay = hourwrk * payrate
     overtime = 0
+    overtimepay = 0
 else:
+    overtimepay = (payrate * 1.5) * (hourwrk - 40) # Moved to Else section - forgot to do this
     overtime = hourwrk - 40
     hourwrk = 40
     regpay = hourwrk * payrate
